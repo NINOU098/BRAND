@@ -1,0 +1,62 @@
+
+.description {
+    font-style: inherit;
+    color:  #505AA0;
+    text-align: center;
+    margin: 1.5em;
+    line-height: 1.5;
+    border-radius: 0.2em;
+  }
+  
+
+  .carousel {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 414px;
+    width: 640px;
+    overflow: hidden;
+  }
+  
+
+  .images {
+    display: flex;
+    animation-duration: 10s;
+    animation-name: slideImages;
+    animation-iteration-count: infinite;
+  }
+  
+
+  .imageItem {
+    width: 640px;
+    height: 414px;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0; 
+  }
+  
+
+  .image1 { background-image: url('/football_event.jpg'); }
+  .image2 { background-image: url('/marathon_event.jpg'); }
+  .image3 { background-image: url('/kpop_event.jpg'); }
+  .image4 { background-image: url('/gaming_event.jpg'); }
+  
+
+  @keyframes slideImages {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-640px);
+    }
+    50% {
+        transform: translateX(-1280px);
+    }
+    75% {
+        transform: translateX(-1920px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+  

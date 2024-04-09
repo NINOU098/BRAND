@@ -1,0 +1,61 @@
+.cardContainer {
+  background-color: rgb(244, 244, 244);
+  border-radius: 0.7rem;
+  box-shadow: 0px 5px 8px #999;
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  margin: 0.5rem;
+  width: 18rem;
+}
+
+.imgContainer {
+  align-content: start;
+  display: flex;
+  width: 100%;
+}
+
+.img {
+  border-radius: 0.7rem 0.7rem 0 0;
+  height: 180px;
+  margin-top: 0;
+  width: 100%;
+}
+
+.avatar {
+  align-self: center;
+  border: 5px solid var(--btn);
+  border-radius: 50%;
+  height: 150px;
+  margin-top: 10px;
+  width: 150px;
+}
+
+.title {
+  font-size: 12px;
+  margin: 0.5rem 5%;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 10px;
+  margin: 0.5rem 5%;
+  text-align: justify;
+}
+
+.button {
+  align-items: center;
+  align-self: center;
+  background-color: rgb(15, 15, 14);
+  border: none;
+  border-radius: 5px;
+  color: rgb(234, 224, 224);
+  cursor: pointer;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 100px;
+}

@@ -1,0 +1,51 @@
+.eventWrapper {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	font-family: Arial, sans-serif;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	color: rgb(0, 0, 0); 
+	background-color: white; 
+  }
+  
+  .eventTitle {
+	font-weight: bold;
+	font-size: 3rem;
+  }
+  
+  .eventText {
+	text-align: justify;
+	font-size: 1rem;
+  }
+  
+  .actionButton {
+	padding: 12px 40px;
+	margin: 12px 10px;
+	border: 2px solid #b8860b;
+	border-radius: 12px;
+	font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	background-color: transparent;
+	text-shadow: 1px 1px 1px rgb(16, 79, 51);
+	transition: transform 0.3s ease;
+  }
+  
+  .actionButton:hover {
+	color: #b8860b;
+	background-color: transparent;
+	transform: translateY(-5px);
+	text-shadow: 1px 1px 1px #a45b53;
+  }
+  
+  @media (max-width: 768px) {
+	.eventWrapper {
+	  flex-direction: column;
+	}
+  }
+  

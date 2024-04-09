@@ -1,0 +1,84 @@
+.mainFooter {
+	padding: 50px 0;
+	background-color: #f3f3f3; 
+	color: #b78625; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Arial", sans-serif;
+  }
+  
+  .infoSection {
+	width: 80%;
+	display: flex;
+	justify-content: space-around; 
+	flex-wrap: wrap;
+	border: 1px solid #b78625;
+	padding: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .infoBlock {
+	margin: 10px;
+  }
+  
+  .infoTitle {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px; 
+  }
+  
+  .socialSection {
+	text-align: center;
+  }
+  
+  .socialLinks {
+	display: flex;
+	margin-top: 10px;
+	justify-content: center;
+  }
+  
+  .socialLinkItem {
+	display: flex;
+	align-items: center;
+	margin: 0 15px;
+	font-size: 24px;
+	color: #333;
+	transition: color 0.3s;
+  }
+  
+  .socialLinkItem:hover {
+	color: #a45b53;
+  }
+  
+  .socialHandle {
+	margin-left: 8px;
+	font-size: 18px;
+	color: #104f33;
+  }
+  
+  .copySection {
+	font-size: 14px;
+	text-align: center;
+  }
+  
+  
+  .footer {
+	background-color: var(--footer-background-light);
+}
+  
+body.dark .footer {
+	background-color: var(--footer-background-dark);
+}
+
+  
+  @media (max-width: 768px) {
+	.infoSection {
+	  flex-direction: column;
+	}
+  
+	.socialLinks {
+	  flex-direction: column;
+	}
+  }
+  

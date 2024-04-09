@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #505AA0;
+  padding: 1rem;
+}
+
+
+
+.navContent {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-grow: 1; 
+}
+
+.navList {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menuButton {
+  display: none;
+}
+
+
